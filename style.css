@@ -22,9 +22,7 @@
 }
 
 .top-bar,
-#menu {
-    background-color: salmon;
-}
+#menu {}
 
 .top-bar a {
     text-decoration: none;
@@ -50,13 +48,13 @@
     height: 25rem;
 }
 
-#pic:hover {
+/* #pic:hover {
     transform: translateY(-1.5rem);
     transition: all .75s ease-out;
-}
+} */
 
 h4 {
-    color: white;
+    color: salmon;
 }
 
 @media (max-width: 575px) {
@@ -66,9 +64,8 @@ h4 {
         width: 15rem;
         height: 15rem;
         padding-top: 1rem;
-
-
     }
+
 
 }
 
@@ -95,11 +92,17 @@ h4 {
 
 
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:820px) {
     .back {
         height: 190px;
     }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
 }
+
 
 //gutter fix
 .row,
