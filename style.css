@@ -17,8 +17,13 @@
 
 .navbar-toggler-icon,
 .navbar-toggler {
-    border-color: salmon;
+    border-color: maroon;
 
+}
+
+.navbar-scrolled {
+    background-color: salmon;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
 .top-bar,
@@ -35,6 +40,7 @@
     font-weight: 600;
     letter-spacing: .1 rem;
     z-index: 1;
+    transition: all 0.5s;
 }
 
 .nav-link:hover,
