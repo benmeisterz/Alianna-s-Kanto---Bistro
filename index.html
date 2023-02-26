@@ -139,9 +139,11 @@
     crossorigin="anonymous"></script>
   <script>
     const navEl = document.querySelector('.navbar');
+    const background = document.querySelector('.back');
+    const height = (background.clientHeight);
 
     window.addEventListener('scroll', () => {
-      if (window.scrollY >= 900) {
+      if (window.scrollY >= height) {
         navEl.classList.add('navbar-scrolled');
       } else if (window.scrollY < 900) {
         navEl.classList.remove('navbar-scrolled');
