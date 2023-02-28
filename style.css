@@ -15,14 +15,10 @@
     cursor: default;
 }
 
-.navbar-toggler-icon,
-.navbar-toggler {
-    border-color: maroon;
 
-}
 
 .navbar-scrolled {
-    background-color: #fbc3bc;
+    background-color: #ff0000;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -45,7 +41,7 @@
 
 .nav-link:hover,
 .top-bar:hover {
-    color: salmon !important;
+    color: #af0404 !important;
 }
 
 #pic {
@@ -59,8 +55,15 @@
     transition: all .75s ease-out;
 } */
 
-h4 {
-    color: salmon;
+h4,
+h1 {
+    color: #ff0000;
+}
+
+h3,
+p,
+.bi {
+    color: #ccc;
 }
 
 @media (max-width: 575px) {
