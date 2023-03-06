@@ -20,17 +20,8 @@
 }
 
 .navbar-scrolled {
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    324deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(250, 128, 114, 1) 50%
-  );
+  background-color: salmon;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-}
-
-.top-bar,
-#menu {
 }
 
 .top-bar a {
@@ -76,11 +67,6 @@ h4 {
   }
 }
 
-.fblink {
-  color: #212529;
-  text-decoration: none;
-}
-
 #c-item {
   height: 45rem;
 }
@@ -112,7 +98,7 @@ h4 {
   }
 }
 
-//gutter fix
+/* gutter fix */
 .row,
 .container-fluid {
   margin-left: 0px !important;
